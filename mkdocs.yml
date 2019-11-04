@@ -1,0 +1,13 @@
+site_name: Skincare
+repo_url: https://github.com/deeplearningunb/Skincare
+site_description: Skincare documentation site, built with Mkdocs
+
+
+nav:
+  - Home: 'index.md'
+
+theme:
+  name: bootstrap
+
+plugins:
+  - search
