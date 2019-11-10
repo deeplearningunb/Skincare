@@ -52,57 +52,80 @@
 | **Nosso produto** |  |
 
 ## **3. Descrição dos Envolvidos e dos Usuários**
-
+	
 ### 3.1 Resumo dos Envolvidos
-	 	 	
 
+| **Nome** | **Descrição** | **Responsabilidade** |
+| :------: | :-----------: | :------------------: |
+| Equipe de Desenvolvimento | Estudantes da disciplina Tópicos Especiais de Engenharia de Software da FGA. | Desenvolvimento, Testes, Documentação e Implementação do Software. |
+| Equipe de Gestão | Estudantes da disciplina Tópicos Especiais de Engenharia de Software da FGA. | Gerir o desenvolvimento do produto identificando problemas e apontando caminhos e soluções. | Professor | Professor na Universidade de Brasília, no campus FGA, que ministra a disciplina de  Tópicos Especiais de Engenharia de Software da FGA. | Avaliar e Auxiliar os estudantes. |
+	 	
+	
 ### 3.2 Resumo do Usuário
-
+| **Nome** | **Descrição** |
+| :------: | :-----------: |
+| Paciente | Pessoas que buscam atendimento dermatológico. |
+| Dermatologista  | Dermatologistas que utilizam a plataforma. |
 
 ### 3.3 Ambiente do Usuário
-
-
+	
+	O sistema será utilizado em smartphones com sistema operacional android ou ios.
 
 ### 3.4 Perfis dos Envolvidos
    
-   3.4.1 Equipe de Desenvolvimento
+#### 3.4.1 Equipe de Desenvolvimento
 
 |  |  |
 | --------------- | --------------- |
-| **Representante** |  |
-| **Descrição** |  |
-| **Tipo** |  |
-| **Responsabilidades** |  |
-| **Critérios de Sucesso** |   |
-| **Envolvimento** |  |
+| **Representante** |  Bruno Henrique Sousa Duarte, Ernando da Silva Braga, Eugenio Sales Siqueira, Gustavo Nogueira Rodrigues, Luiz Gustavo  |
+| **Descrição** | Desenvolvedores. |
+| **Tipo** | Estudantes da FGA da disciplina Tópicos Especiais de Engenharia de Software. |
+| **Responsabilidades** | Desenvolvimento, Testes, Documentação, Implementação do software e Gestão do Projeto. |
+| **Critérios de Sucesso** | Finalizar o desenvolvimento e realizar entrega do software em tempo estipulado.  |
+| **Envolvimento** | Alto  |
 
- 3.4.2 Equipe de Gestão de Projeto
+#### 3.4.2 Equipe de Gestão de Projeto
 
 |  |  |
 | --------------- | --------------- |
-| **Representante** |  |
-| **Descrição** |  |
-| **Tipo** |  |
-| **Responsabilidades** |  |
-| **Critérios de Sucesso** |  |
-| **Envolvimento** |  |
+| **Representante** | Bruno Henrique Sousa Duarte, Eugenio Sales Siqueira |
+| **Descrição** | Gerenciamento de projeto. |
+| **Tipo** | Estudantes da FGA da disciplina Tópicos Especiais de Engenharia de Software. |
+| **Responsabilidades** | Gerir o desenvolvimento do produto identificando problemas e apontando caminhos e soluções. |
+| **Critérios de Sucesso** | Manter a equipe focada no projeto, gerência dos riscos associados ao projeto e finalizar o desenvolvimento do projeto. |
+| **Envolvimento** | Alto |
 
 
 ### 3.5 Perfis dos Usuários
 
- 3.5.1 Dermatologistas
+#### 3.5.1 Pacientes
 
 |  |  |
 | --------------- | --------------- |
-| **Representante** |  |
-| **Descrição** |  |
-| **Tipo** |  |
-| **Responsabilidades** |  |
-| **Critérios de Sucesso** |  |
-| **Envolvimento** |  |
+| **Representante** | Pacientes |
+| **Descrição** | Pessoa que busca atendimento dermatológico. |
+| **Tipo** | Usuário que tem interesse em obter melhor atendimento. |
+| **Responsabilidades** | - |
+| **Critérios de Sucesso** | Obter um informações precisas e seguras sobre a saúde da sua pele. |
+| **Envolvimento** | Médio |
+
+#### 3.5.1 Dermatologistas
+
+|  |  |
+| --------------- | --------------- |
+| **Representante** | Dermatologistas |
+| **Descrição** | Formados em Medicina e atuam na área de dermatologia, usuários do software. |
+| **Tipo** | Formados em Medicina |
+| **Responsabilidades** | - |
+| **Critérios de Sucesso** | Obter informações e classificações que possa auxiliá-lo a definir um diagnóstico em relação a saúde da pele dos seus pacientes. |
+| **Envolvimento** | Alto. |
 
 ### 3.6 Alternativas e Concorrências  
 
+#### 3.6.1 DermiMD
+
+![ ](_dermiMD.png)
+[DermiMD](https://github.com/MichaelChoudhury/dermatitisDetector) é uma plataforma que tem como objetivo ajudar dermatologistas estagiários a diagnosticar doenças de pele usando um aplicativo da Web.
 
 ## **4. Visão Geral do Produto**
 
@@ -140,3 +163,4 @@ Para o uso do sistema é necessário que o usuário tenha acesso a um dispositiv
 | :------: | :--------: | :-------------: | :-------: |
 | 06/11/2019 | 0.1 | Adição de introdução | Eugênio Sales |
 | 09/11/2019 | 0.2 | Adição dos Recursos do Produto e Restrições | Luiz Gustavo |
+| 10/11/2019 | 0.3 | Adição do tópico de Descrição dos Envolvidos e dos Usuários | Gustavo Nogueira |
