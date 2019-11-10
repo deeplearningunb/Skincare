@@ -4,14 +4,14 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Skincare documentation site, built with Mkdocs">
         
         
-        <link rel="shortcut icon" href="img/favicon.ico">
-        <title>Skincare</title>
-    <link href="css/bootstrap-3.3.7.min.css" rel="stylesheet">
-    <link href="css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/base.css" rel="stylesheet">
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>Backlog do Produto - Skincare</title>
+    <link href="../css/bootstrap-3.3.7.min.css" rel="stylesheet">
+    <link href="../css/font-awesome.min.css" rel="stylesheet">
+    <link href="../css/base.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -19,13 +19,13 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    <script src="js/jquery-1.10.2.min.js" defer></script>
-    <script src="js/bootstrap-3.3.7.min.js" defer></script>
+    <script src="../js/jquery-1.10.2.min.js" defer></script>
+    <script src="../js/bootstrap-3.3.7.min.js" defer></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
     <script>hljs.initHighlightingOnLoad();</script> 
     </head>
 
-    <body class="homepage">
+    <body>
 
         <div class="navbar navbar-default navbar-fixed-top" role="navigation">
             <div class="container">
@@ -39,21 +39,21 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href=".">Skincare</a>
+                    <a class="navbar-brand" href="..">Skincare</a>
                 </div>
 
                 <!-- Expanded navigation -->
                 <div class="navbar-collapse collapse">
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
+                            <li >
+                                <a href="..">Home</a>
+                            </li>
                             <li class="active">
-                                <a href=".">Home</a>
+                                <a href="./">Backlog do Produto</a>
                             </li>
                             <li >
-                                <a href="backlog/">Backlog do Produto</a>
-                            </li>
-                            <li >
-                                <a href="documento-de-visao/">Documento de Visão</a>
+                                <a href="../documento-de-visao/">Documento de Visão</a>
                             </li>
                         </ul>
 
@@ -63,18 +63,18 @@
                                 <i class="fa fa-search"></i> Search
                             </a>
                         </li>
-                            <li class="disabled">
-                                <a rel="next" >
+                            <li >
+                                <a rel="next" href="..">
                                     <i class="fa fa-arrow-left"></i> Previous
                                 </a>
                             </li>
                             <li >
-                                <a rel="prev" href="backlog/">
+                                <a rel="prev" href="../documento-de-visao/">
                                     Next <i class="fa fa-arrow-right"></i>
                                 </a>
                             </li>
                             <li>
-                                <a href="https://github.com/deeplearningunb/Skincare/edit/master/docs/index.md"><i class="fa fa-github"></i> Edit on GitHub</a>
+                                <a href="https://github.com/deeplearningunb/Skincare/edit/master/docs/backlog.md"><i class="fa fa-github"></i> Edit on GitHub</a>
                             </li>
                     </ul>
                 </div>
@@ -84,16 +84,47 @@
         <div class="container">
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
-        <li class="main active"><a href="#skin-disease-classifier">Skin Disease Classifier</a></li>
-            <li><a href="#repositorios-de-codigo">Repositórios de código</a></li>
+        <li class="main active"><a href="#backlog-do-produto">Backlog do Produto</a></li>
+        <li class="main "><a href="#priorizacao-moscow">Priorização: MoSCoW</a></li>
+        <li class="main "><a href="#backlog">Backlog</a></li>
+        <li class="main "><a href="#historico-de-revisao">Histórico de Revisão</a></li>
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
 
-<h2 id="skin-disease-classifier">Skin Disease Classifier</h2>
-<p><a href="http://opensource.org/licenses/MIT"><img alt="MIT license" src="http://img.shields.io/badge/license-MIT-brightgreen.svg" /></a>
-<a href="#contributors"><img alt="All Contributors" src="https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square" /></a></p>
-<h3 id="repositorios-de-codigo"><a href="https://github.com/skincare-deep-learning">Repositórios de código</a></h3></div>
+<h2 id="backlog-do-produto">Backlog do Produto</h2>
+<p>O backlog do produto é um artefato do Scrum que consiste em uma lista priorizada de funcionalidades descritas geralmente na forma de estórias de usuário.
+Neste projeto o backlog será utilizado como um norteamento onde serão priorizados os itens do backlog e selecionadas as funcionalidades a serem desenvolvidas na próxima sprint. </p>
+<h2 id="priorizacao-moscow">Priorização: MoSCoW</h2>
+<p>A priorização do MoSCoW é uma técnica popular de gerenciamento de requisitos. O método é comumente usado para ajudar as principais partes interessadas a entender a importância de determinadas funcionalidades dentro do projeto. <br/>
+O acrônimo MoSCoW atende as respectivas descrições:
+* <strong>Must</strong>:  Tudo o que é imprescindível para o escopo do projeto. As principais funcionalidades da aplicação que denotam o projeto.
+* <strong>Should</strong>: Tudo o que é importante para a aplicação mas não afeta(negativamente) seu valor de negócio. Funcionalidades que caso não sejam desenvolvidas não prejudicam a finalidade do projeto.
+* <strong>Could</strong>: Funcionalidade que teriam um grande valor caso implementadas mas que não são importantes para o projeto
+* <strong>Would</strong>: O que não será desenvolvido por agora. Elemntos finais de uma <em>Stack</em>.</p>
+<h2 id="backlog">Backlog</h2>
+<p><img alt="Backlog" src="https://i.imgur.com/MXVwyOs.jpg" />
+<em>Autor(es): Membros da Equipe</em><br>
+<em>Versão do Artefato: 0.1</em></p>
+<h2 id="historico-de-revisao">Histórico de Revisão</h2>
+<table>
+<thead>
+<tr>
+<th align="center"><strong>Data</strong></th>
+<th align="center"><strong>Versão</strong></th>
+<th align="center"><strong>Modificação</strong></th>
+<th align="center"><strong>Autor</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">10/11/2019</td>
+<td align="center">0.1</td>
+<td align="center">Adicionando Backlog</td>
+<td align="center">Bruno Duarte</td>
+</tr>
+</tbody>
+</table></div>
         </div>
 
         <footer class="col-md-12">
@@ -101,11 +132,11 @@
             <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
         </footer>
         <script>
-            var base_url = ".",
+            var base_url = "..",
                 shortcuts = {"search": 83, "next": 78, "help": 191, "previous": 80};
         </script>
-        <script src="js/base.js" defer></script>
-        <script src="search/main.js" defer></script>
+        <script src="../js/base.js" defer></script>
+        <script src="../search/main.js" defer></script>
 
         <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
     <div class="modal-dialog">
@@ -173,8 +204,3 @@
 
     </body>
 </html>
-
-<!--
-MkDocs version : 1.0.4
-Build Date UTC : 2019-11-10 17:43:15
--->

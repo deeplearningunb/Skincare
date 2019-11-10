@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>Documento de Visão - Skincare</title>
+    <link href="../css/bootstrap-3.3.7.min.css" rel="stylesheet">
+    <link href="../css/font-awesome.min.css" rel="stylesheet">
+    <link href="../css/base.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <script src="../js/jquery-1.10.2.min.js" defer></script>
+    <script src="../js/bootstrap-3.3.7.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+
+                <!-- Collapsed navigation -->
+                <div class="navbar-header">
+                    <!-- Expander button -->
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="..">Skincare</a>
+                </div>
+
+                <!-- Expanded navigation -->
+                <div class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li >
+                                <a href="..">Home</a>
+                            </li>
+                            <li >
+                                <a href="../backlog/">Backlog do Produto</a>
+                            </li>
+                            <li class="active">
+                                <a href="./">Documento de Visão</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li >
+                                <a rel="next" href="../backlog/">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="disabled">
+                                <a rel="prev" >
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/deeplearningunb/Skincare/edit/master/docs/documento-de-visao.md"><i class="fa fa-github"></i> Edit on GitHub</a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="main active"><a href="#documento-de-visao">Documento de Visão</a></li>
+            <li><a href="#1-introducao">1. Introdução</a></li>
+            <li><a href="#2-posicao">2. Posição</a></li>
+            <li><a href="#3-descricao-dos-envolvidos-e-dos-usuarios">3. Descrição dos Envolvidos e dos Usuários</a></li>
+            <li><a href="#4-visao-geral-do-produto">4. Visão Geral do Produto</a></li>
+            <li><a href="#5-recursos-do-produto">5. Recursos do Produto</a></li>
+            <li><a href="#6-restricoes">6. Restrições</a></li>
+            <li><a href="#historico-de-revisao">Histórico de Revisão</a></li>
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
+
+<h1 id="documento-de-visao">Documento de Visão</h1>
+<h2 id="1-introducao"><strong>1. Introdução</strong></h2>
+<h3 id="11-finalidade">1.1 Finalidade</h3>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Este documento tem por finalidade contextualizar o aplicativo Skincare e os problemas que a aplicação se propõe a resolver, bem como apresentar os stakeholders e a visão de produto.</p>
+<h3 id="12-escopo">1.2 Escopo</h3>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A proposta de análise de lesões cutâneas em direção à detecção de melanoma vem de um desafio lançado pela ISIC (International Skin Imaging Collaboration), que é uma organização internacional para melhorar o diagnóstico de melanoma, patrocinado pela Sociedade Internacional de Imagem Digital da Pele (ISDIS) em 2018. O ISIC Archive contém a maior coleção disponível ao público de imagens dermatoscópicas, com qualidade controlada, de lesões de pele.</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Tendo em vista essa contextualização, o objetivo do Skincare é ajudar os participantes a desenvolver ferramentas de análise de imagem para permitir o diagnóstico automatizado de melanoma a partir de imagens dermatoscópicas por meio de um aplicativo mobile.</p>
+<h3 id="13-definicoes-acronimos-e-abreviacoes">1.3 Definições, Acrônimos e Abreviações</h3>
+<ul>
+<li>Melanoma - Tipo de câncer mais grave que ocorre quando as células produtoras dos pigmentos que dão cor à pele tornam-se cancerígenas.</li>
+<li>Câncer de pele - Crescimento anormal de células da pele.</li>
+</ul>
+<h3 id="14-referencias">1.4 Referências</h3>
+<blockquote>
+<p>Documento de Visão: A estrutura de tópicos do documento de visão. IBM. Disponível em: <a href='https://goo.gl/BNAJtT'><a href="https://goo.gl/BNAJtT">https://goo.gl/BNAJtT</a></a>. Acesso em: 27 de março de 2019;</p>
+<p>Desafio: ISIC 2018: Skin Lesion Analysis Towards Melanoma Detection. Disponível em: <a href='https://challenge2018.isic-archive.com/'><a href="https://challenge2018.isic-archive.com/">https://challenge2018.isic-archive.com/</a></a>. Acesso em: julho de 2018;</p>
+</blockquote>
+<h3 id="15-visao-geral">1.5 Visão Geral</h3>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Este documento visa detalhar os processos de desenvolvimento, planejamento e a construção do Skincare, a gestão em um todo. Assim como sua visão de negócio, as partes a que se destina o uso do software, contendo as limitações, funcionalidades, interfaces e requisitos.</p>
+<h2 id="2-posicao"><strong>2. Posição</strong></h2>
+<h3 id="21-oportunidade-de-negocio">2.1 Oportunidade de Negócio</h3>
+<h3 id="22-descricao-do-problema">2.2 Descrição do Problema</h3>
+<table>
+<thead>
+<tr>
+<th align="center"></th>
+<th align="center"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><strong>O problema de</strong></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><strong>Afeta</strong></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><strong>Cujo impacto é</strong></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><strong>Uma boa solução seria</strong></td>
+<td align="center"></td>
+</tr>
+</tbody>
+</table>
+<h3 id="23-descricao-de-posicao-do-produto">2.3 Descrição de Posição do Produto</h3>
+<table>
+<thead>
+<tr>
+<th align="center"></th>
+<th align="center"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><strong>Para</strong></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><strong>Que</strong></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><strong>O PyLearner</strong></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><strong>Que</strong></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><strong>Diferente de</strong></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><strong>Nosso produto</strong></td>
+<td align="center"></td>
+</tr>
+</tbody>
+</table>
+<h2 id="3-descricao-dos-envolvidos-e-dos-usuarios"><strong>3. Descrição dos Envolvidos e dos Usuários</strong></h2>
+<h3 id="31-resumo-dos-envolvidos">3.1 Resumo dos Envolvidos</h3>
+<h3 id="32-resumo-do-usuario">3.2 Resumo do Usuário</h3>
+<h3 id="33-ambiente-do-usuario">3.3 Ambiente do Usuário</h3>
+<h3 id="34-perfis-dos-envolvidos">3.4 Perfis dos Envolvidos</h3>
+<p>3.4.1 Equipe de Desenvolvimento</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Representante</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Descrição</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Tipo</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Responsabilidades</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Critérios de Sucesso</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Envolvimento</strong></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>3.4.2 Equipe de Gestão de Projeto</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Representante</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Descrição</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Tipo</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Responsabilidades</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Critérios de Sucesso</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Envolvimento</strong></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="35-perfis-dos-usuarios">3.5 Perfis dos Usuários</h3>
+<p>3.5.1 Dermatologistas</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Representante</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Descrição</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Tipo</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Responsabilidades</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Critérios de Sucesso</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Envolvimento</strong></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="36-alternativas-e-concorrencias">3.6 Alternativas e Concorrências</h3>
+<h2 id="4-visao-geral-do-produto"><strong>4. Visão Geral do Produto</strong></h2>
+<h3 id="41-perspectiva-do-produto">4.1 Perspectiva do Produto</h3>
+<h3 id="42-resumo-dos-recursos">4.2 Resumo dos Recursos</h3>
+<table>
+<thead>
+<tr>
+<th align="center"><strong>Benefício para o Cliente</strong></th>
+<th align="center"><strong>Recursos de suporte</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+</tbody>
+</table>
+<h2 id="5-recursos-do-produto">5. <a name="5">Recursos do Produto</a></h2>
+<p>O sistema oferece as seguintes funcionalidades aos usuários: 
+* O sistema possibilita a distinção de diferentes tipos de doença de pele, apontando para a mais provável, apesar de não substituir um diagnostico médico, oferece ao usuário um noção prévia da doença que está sendo observada. 
+* O sistema possibilita que o usuário tire fotos do seu celular e possa realizar um pré diagnostico.
+* O usuário consegue realizar um pré exame, facilitando a busca por um profissional adequado para o tratamento para os diferentes tipos de melanoma e câncer de pele. 
+* Oferecer suporte ao paciente, orientando ele a procurar um profissional da saúde. 
+* Fornece informações e dicas importantes sobre os cuidados com a pele e orienta sempre a busca por um profissional de saúde. 
+* Otimizar o tempo gasto por profissionais da saúde a realizar exames mais rápidos ou fazer todas as orientações aos pacientes, a depender do tipo de doença. 
+* Facilitar, para o profissional de saúde, a prescrição de medicamentos e exames, e a realização de orientações quanto ao que for diagnosticado. </p>
+<h2 id="6-restricoes">6. <a name="6">Restrições</a></h2>
+<h3 id="61-restricoes-de-design">6.1 <a name="6_1">Restrições de Design</a></h3>
+<p>O design será elegante e simples, buscando a praticidade para a interação do usuário. </p>
+<h3 id="62-restricoes-de-implementacao">6.2 <a name="6_2">Restrições de Implementação</a></h3>
+<p>O projeto Skincare terá um app mobile, app esse desenvolvido em Javascript e com a biblioteca React sendo utilizados no Frontend e o framework Flask no Backend. Além disso o projeto também será implementado seguindo o modelo de projeto de software e arquitetural MVC.</p>
+<h3 id="63-restricoes-de-seguranca">6.3 <a name="6_3">Restrições de Segurança</a></h3>
+<p>O Sistema apesar de fornecer um pré diagnostico, possui fins apenas acadêmicos, não substituindo um profissional adequado da área da saúde. O mesmo visa apenas fornecer um dado prévio sobre uma possível doença de pele. Apenas o usuário terá o acesso prévio ao diagnostico, sendo o sigilo nesse contexto uma forma de proteção ao paciente, tendo essa informação restrita ao usuário. </p>
+<h3 id="64-restricoes-de-uso">6.4 <a name="6_4">Restrições de Uso</a></h3>
+<p>Para o uso do sistema é necessário que o usuário tenha acesso a um dispositivo mobile conectado à internet e para a instalação do aplicativo. </p>
+<h2 id="historico-de-revisao">Histórico de Revisão</h2>
+<table>
+<thead>
+<tr>
+<th align="center"><strong>Data</strong></th>
+<th align="center"><strong>Versão</strong></th>
+<th align="center"><strong>Modificação</strong></th>
+<th align="center"><strong>Autor</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">06/11/2019</td>
+<td align="center">0.1</td>
+<td align="center">Adição de introdução</td>
+<td align="center">Eugênio Sales</td>
+</tr>
+<tr>
+<td align="center">09/11/2019</td>
+<td align="center">0.2</td>
+<td align="center">Adição dos Recursos do Produto e Restrições</td>
+<td align="center">Luiz Gustavo</td>
+</tr>
+</tbody>
+</table></div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "..",
+                shortcuts = {"search": 83, "next": 78, "help": 191, "previous": 80};
+        </script>
+        <script src="../js/base.js" defer></script>
+        <script src="../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form role="form">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="Keyboard Shortcuts Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Keyboard Shortcuts</h4>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
