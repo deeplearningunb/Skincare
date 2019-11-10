@@ -5,6 +5,8 @@ site_description: Skincare documentation site, built with Mkdocs
 
 nav:
   - Home: 'index.md'
+  - Backlog do Produto: 'backlog.md'
+  - Documento de Visão: 'documento-de-visao.md'
 
 theme:
   name: bootstrap
