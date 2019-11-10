@@ -1,6 +1,11 @@
 # Introdução
 
-O Roadmap do produto representa o planejamento feito para o desenvolvimento a partir do Backlog do produto, objetivando uma melhor organização ao longo do projeto e definindo um ponto a ser seguido pela equipe. O Roadmap foi divido em 4 grandes marcos: Documentação e ambientação, conclusão do frontend e do preprocessamento, conclusão do algoritmo de classificação e release final.
+O Roadmap do produto representa o planejamento feito para o desenvolvimento a partir do Backlog do produto, objetivando uma melhor organização ao longo do projeto e definindo um ponto a ser seguido pela equipe. O Roadmap foi divido em 4 grandes marcos: 
+
+- Documentação e ambientação
+- Conclusão do frontend e do preprocessamento
+- Conclusão do algoritmo de classificação
+- Release final.
 
 # Roadmap do Projeto
 
@@ -17,7 +22,7 @@ O Roadmap do produto representa o planejamento feito para o desenvolvimento a pa
 - Containerização do backend
 - Containerização do frontend
 - Pipeline de Integração Contínua
-- Pré-processamento com segmentação das imagens de lesões de pele
+- Segmentação das imagens de lesões de pele
 
 
 ## Milestone 1: Conclusão do Frontend e preprocessamento
@@ -59,3 +64,4 @@ O Roadmap do produto representa o planejamento feito para o desenvolvimento a pa
 |    Data    | Versão |	   Alteração    |      Autor     |
 |:----------:|:------:|:---------------:|:--------------:|
 | 10/11/2019 |  0.1   | Criação do documento |Eugênio Sales |
+| 11/11/2019 |  0.1   | Adição de milestones |Eugênio Sales |
