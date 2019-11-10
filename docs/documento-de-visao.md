@@ -125,6 +125,7 @@
 #### 3.6.1 DermiMD
 
 ![ ](_dermiMD.png)
+<br>
 [DermiMD](https://github.com/MichaelChoudhury/dermatitisDetector) é uma plataforma que tem como objetivo ajudar dermatologistas estagiários a diagnosticar doenças de pele usando um aplicativo da Web.
 
 ## **4. Visão Geral do Produto**
