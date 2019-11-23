@@ -4,14 +4,14 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Skincare documentation site, built with Mkdocs">
         
         
-        <link rel="shortcut icon" href="img/favicon.ico">
-        <title>Skincare</title>
-    <link href="css/bootstrap-3.3.7.min.css" rel="stylesheet">
-    <link href="css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/base.css" rel="stylesheet">
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>Roadmap - Skincare</title>
+    <link href="../css/bootstrap-3.3.7.min.css" rel="stylesheet">
+    <link href="../css/font-awesome.min.css" rel="stylesheet">
+    <link href="../css/base.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -19,13 +19,13 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    <script src="js/jquery-1.10.2.min.js" defer></script>
-    <script src="js/bootstrap-3.3.7.min.js" defer></script>
+    <script src="../js/jquery-1.10.2.min.js" defer></script>
+    <script src="../js/bootstrap-3.3.7.min.js" defer></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
     <script>hljs.initHighlightingOnLoad();</script> 
     </head>
 
-    <body class="homepage">
+    <body>
 
         <div class="navbar navbar-default navbar-fixed-top" role="navigation">
             <div class="container">
@@ -39,35 +39,35 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href=".">Skincare</a>
+                    <a class="navbar-brand" href="..">Skincare</a>
                 </div>
 
                 <!-- Expanded navigation -->
                 <div class="navbar-collapse collapse">
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
-                            <li class="active">
-                                <a href=".">Home</a>
+                            <li >
+                                <a href="..">Home</a>
                             </li>
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Documentação <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
 <li >
-    <a href="backlog/">Backlog do Produto</a>
+    <a href="../backlog/">Backlog do Produto</a>
 </li>
                                     
 <li >
-    <a href="documento-de-visao/">Documento de Visão</a>
+    <a href="../documento-de-visao/">Documento de Visão</a>
 </li>
                                     
 <li >
-    <a href="prototipo_baixa_fidelidade/">Protótipo de Baixa Fidelidade</a>
+    <a href="../prototipo_baixa_fidelidade/">Protótipo de Baixa Fidelidade</a>
 </li>
                                 </ul>
                             </li>
-                            <li >
-                                <a href="roadmap/">Roadmap</a>
+                            <li class="active">
+                                <a href="./">Roadmap</a>
                             </li>
                         </ul>
 
@@ -77,18 +77,18 @@
                                 <i class="fa fa-search"></i> Search
                             </a>
                         </li>
-                            <li class="disabled">
-                                <a rel="next" >
+                            <li >
+                                <a rel="next" href="../prototipo_baixa_fidelidade/">
                                     <i class="fa fa-arrow-left"></i> Previous
                                 </a>
                             </li>
-                            <li >
-                                <a rel="prev" href="backlog/">
+                            <li class="disabled">
+                                <a rel="prev" >
                                     Next <i class="fa fa-arrow-right"></i>
                                 </a>
                             </li>
                             <li>
-                                <a href="https://github.com/deeplearningunb/Skincare/edit/master/docs/index.md"><i class="fa fa-github"></i> Edit on GitHub</a>
+                                <a href="https://github.com/deeplearningunb/Skincare/edit/master/docs/roadmap.md"><i class="fa fa-github"></i> Edit on GitHub</a>
                             </li>
                     </ul>
                 </div>
@@ -98,17 +98,99 @@
         <div class="container">
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
-        <li class="main active"><a href="#skin-disease-classifier">Skin Disease Classifier</a></li>
-            <li><a href="#repositorios-de-codigo">Repositórios de código</a></li>
+        <li class="main active"><a href="#introducao">Introdução</a></li>
+        <li class="main "><a href="#roadmap-do-projeto">Roadmap do Projeto</a></li>
+            <li><a href="#milestone-0-termino-da-documentacao-e-ambientacao">Milestone 0: Término da Documentação e ambientação</a></li>
+            <li><a href="#milestone-1-conclusao-do-frontend-e-preprocessamento">Milestone 1: Conclusão do Frontend e preprocessamento</a></li>
+            <li><a href="#milestone-2-conclusao-do-algoritmo-de-classificacao">Milestone 2: Conclusão do algoritmo de classificação</a></li>
+            <li><a href="#milestone-3-release-final">Milestone 3: Release Final</a></li>
+            <li><a href="#historico-de-revisao">Histórico de Revisão</a></li>
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
 
-<h2 id="skin-disease-classifier">Skin Disease Classifier</h2>
-<p><a href="http://opensource.org/licenses/MIT"><img alt="MIT license" src="http://img.shields.io/badge/license-MIT-brightgreen.svg" /></a>
-<a href="#contributors"><img alt="All Contributors" src="https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square" /></a></p>
-<p><img alt="skincare-logo" src="assets/img/skincare-logo.png" /></p>
-<h3 id="repositorios-de-codigo"><a href="https://github.com/skincare-deep-learning">Repositórios de código</a></h3></div>
+<h1 id="introducao">Introdução</h1>
+<p>O Roadmap do produto representa o planejamento feito para o desenvolvimento a partir do Backlog do produto, objetivando uma melhor organização ao longo do projeto e definindo um ponto a ser seguido pela equipe. O Roadmap foi divido em 4 grandes marcos: </p>
+<ul>
+<li>Documentação e ambientação</li>
+<li>Conclusão do frontend e do preprocessamento</li>
+<li>Conclusão do algoritmo de classificação</li>
+<li>Release final.</li>
+</ul>
+<h1 id="roadmap-do-projeto">Roadmap do Projeto</h1>
+<h2 id="milestone-0-termino-da-documentacao-e-ambientacao">Milestone 0: Término da Documentação e ambientação</h2>
+<h3 id="sprint-0">Sprint 0</h3>
+<ul>
+<li>Definição de tema do projeto</li>
+<li>Levantamento de Requisitos</li>
+<li>Criação do Backlog do produto</li>
+<li>Criação do Roadmap do produto</li>
+<li>Criação Documento de visão</li>
+<li>Configuração do mkdocs para documentação</li>
+<li>Containerização do backend</li>
+<li>Containerização do frontend</li>
+<li>Pipeline de Integração Contínua</li>
+<li>Segmentação das imagens de lesões de pele</li>
+</ul>
+<h2 id="milestone-1-conclusao-do-frontend-e-preprocessamento">Milestone 1: Conclusão do Frontend e preprocessamento</h2>
+<h3 id="sprint-1">Sprint 1</h3>
+<ul>
+<li>Prototipação de baixa fidelidade</li>
+<li>Integração do backend com algoritmo de classificação</li>
+<li>Identidade visual</li>
+<li>Limpeza de dados</li>
+<li>Segmentação de imagens em conjunto de testes e treinamento</li>
+<li>Aplicação da camada convolucional</li>
+<li>US01 - Retirar uma foto com a câmera do celular</li>
+<li>US03 - Verificar a conformidade da imagem</li>
+<li>US07 - Carregamento enquanto aguarda o processamento da imagem</li>
+<li>US08 - Verificar mais informações do aplicativo</li>
+<li>US12 - Acessar Menu de opções</li>
+</ul>
+<h2 id="milestone-2-conclusao-do-algoritmo-de-classificacao">Milestone 2: Conclusão do algoritmo de classificação</h2>
+<h3 id="sprint-2">Sprint 2</h3>
+<ul>
+<li>Arquitetura da rede neural convolucional</li>
+<li>Treinamento e salvamento do classificador</li>
+<li>Avaliação do modelo</li>
+<li>US13 - Verificar resultado da avaliação</li>
+</ul>
+<h2 id="milestone-3-release-final">Milestone 3: Release Final</h2>
+<h3 id="sprint-3">Sprint 3</h3>
+<ul>
+<li>Deploy do backend</li>
+</ul>
+<h2 id="historico-de-revisao">Histórico de Revisão</h2>
+<table>
+<thead>
+<tr>
+<th align="center">Data</th>
+<th align="center">Versão</th>
+<th align="center">Alteração</th>
+<th align="center">Autor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">10/11/2019</td>
+<td align="center">0.1</td>
+<td align="center">Criação do documento</td>
+<td align="center">Eugênio Sales</td>
+</tr>
+<tr>
+<td align="center">11/11/2019</td>
+<td align="center">0.2</td>
+<td align="center">Adição de milestones</td>
+<td align="center">Eugênio Sales</td>
+</tr>
+<tr>
+<td align="center">22/11/2019</td>
+<td align="center">0.3</td>
+<td align="center">Atualizaço dos milestones</td>
+<td align="center">Eugênio Sales</td>
+</tr>
+</tbody>
+</table></div>
         </div>
 
         <footer class="col-md-12">
@@ -116,11 +198,11 @@
             <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
         </footer>
         <script>
-            var base_url = ".",
+            var base_url = "..",
                 shortcuts = {"search": 83, "next": 78, "help": 191, "previous": 80};
         </script>
-        <script src="js/base.js" defer></script>
-        <script src="search/main.js" defer></script>
+        <script src="../js/base.js" defer></script>
+        <script src="../search/main.js" defer></script>
 
         <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
     <div class="modal-dialog">
@@ -188,8 +270,3 @@
 
     </body>
 </html>
-
-<!--
-MkDocs version : 1.0.4
-Build Date UTC : 2019-11-23 02:46:05
--->

@@ -49,11 +49,25 @@
                             <li >
                                 <a href="..">Home</a>
                             </li>
-                            <li >
-                                <a href="../backlog/">Backlog do Produto</a>
+                            <li class="dropdown active">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Documentação <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../backlog/">Backlog do Produto</a>
+</li>
+                                    
+<li class="active">
+    <a href="./">Documento de Visão</a>
+</li>
+                                    
+<li >
+    <a href="../prototipo_baixa_fidelidade/">Protótipo de Baixa Fidelidade</a>
+</li>
+                                </ul>
                             </li>
-                            <li class="active">
-                                <a href="./">Documento de Visão</a>
+                            <li >
+                                <a href="../roadmap/">Roadmap</a>
                             </li>
                         </ul>
 
@@ -68,8 +82,8 @@
                                     <i class="fa fa-arrow-left"></i> Previous
                                 </a>
                             </li>
-                            <li class="disabled">
-                                <a rel="prev" >
+                            <li >
+                                <a rel="prev" href="../prototipo_baixa_fidelidade/">
                                     Next <i class="fa fa-arrow-right"></i>
                                 </a>
                             </li>
@@ -181,45 +195,51 @@
 </table>
 <h2 id="3-descricao-dos-envolvidos-e-dos-usuarios"><strong>3. Descrição dos Envolvidos e dos Usuários</strong></h2>
 <h3 id="31-resumo-dos-envolvidos">3.1 Resumo dos Envolvidos</h3>
-<h3 id="32-resumo-do-usuario">3.2 Resumo do Usuário</h3>
-<h3 id="33-ambiente-do-usuario">3.3 Ambiente do Usuário</h3>
-<h3 id="34-perfis-dos-envolvidos">3.4 Perfis dos Envolvidos</h3>
-<p>3.4.1 Equipe de Desenvolvimento</p>
 <table>
 <thead>
 <tr>
-<th></th>
-<th></th>
+<th align="center"><strong>Nome</strong></th>
+<th align="center"><strong>Descrição</strong></th>
+<th align="center"><strong>Responsabilidade</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><strong>Representante</strong></td>
-<td></td>
+<td align="center">Equipe de Desenvolvimento</td>
+<td align="center">Estudantes da disciplina Tópicos Especiais de Engenharia de Software da FGA.</td>
+<td align="center">Desenvolvimento, Testes, Documentação e Implementação do Software.</td>
 </tr>
 <tr>
-<td><strong>Descrição</strong></td>
-<td></td>
-</tr>
-<tr>
-<td><strong>Tipo</strong></td>
-<td></td>
-</tr>
-<tr>
-<td><strong>Responsabilidades</strong></td>
-<td></td>
-</tr>
-<tr>
-<td><strong>Critérios de Sucesso</strong></td>
-<td></td>
-</tr>
-<tr>
-<td><strong>Envolvimento</strong></td>
-<td></td>
+<td align="center">Equipe de Gestão</td>
+<td align="center">Estudantes da disciplina Tópicos Especiais de Engenharia de Software da FGA.</td>
+<td align="center">Gerir o desenvolvimento do produto identificando problemas e apontando caminhos e soluções.</td>
 </tr>
 </tbody>
 </table>
-<p>3.4.2 Equipe de Gestão de Projeto</p>
+<h3 id="32-resumo-do-usuario">3.2 Resumo do Usuário</h3>
+<table>
+<thead>
+<tr>
+<th align="center"><strong>Nome</strong></th>
+<th align="center"><strong>Descrição</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">Paciente</td>
+<td align="center">Pessoas que buscam atendimento dermatológico.</td>
+</tr>
+<tr>
+<td align="center">Dermatologista</td>
+<td align="center">Dermatologistas que utilizam a plataforma.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="33-ambiente-do-usuario">3.3 Ambiente do Usuário</h3>
+<pre><code>O sistema será utilizado em smartphones com sistema operacional android ou ios.
+</code></pre>
+<h3 id="34-perfis-dos-envolvidos">3.4 Perfis dos Envolvidos</h3>
+<h4 id="341-equipe-de-desenvolvimento">3.4.1 Equipe de Desenvolvimento</h4>
 <table>
 <thead>
 <tr>
@@ -230,32 +250,67 @@
 <tbody>
 <tr>
 <td><strong>Representante</strong></td>
-<td></td>
+<td>Bruno Henrique Sousa Duarte, Ernando da Silva Braga, Eugenio Sales Siqueira, Gustavo Nogueira Rodrigues, Luiz Gustavo</td>
 </tr>
 <tr>
 <td><strong>Descrição</strong></td>
-<td></td>
+<td>Desenvolvedores.</td>
 </tr>
 <tr>
 <td><strong>Tipo</strong></td>
-<td></td>
+<td>Estudantes da FGA da disciplina Tópicos Especiais de Engenharia de Software.</td>
 </tr>
 <tr>
 <td><strong>Responsabilidades</strong></td>
-<td></td>
+<td>Desenvolvimento, Testes, Documentação, Implementação do software e Gestão do Projeto.</td>
 </tr>
 <tr>
 <td><strong>Critérios de Sucesso</strong></td>
-<td></td>
+<td>Finalizar o desenvolvimento e realizar entrega do software em tempo estipulado.</td>
 </tr>
 <tr>
 <td><strong>Envolvimento</strong></td>
-<td></td>
+<td>Alto</td>
+</tr>
+</tbody>
+</table>
+<h4 id="342-equipe-de-gestao-de-projeto">3.4.2 Equipe de Gestão de Projeto</h4>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Representante</strong></td>
+<td>Bruno Henrique Sousa Duarte, Eugenio Sales Siqueira</td>
+</tr>
+<tr>
+<td><strong>Descrição</strong></td>
+<td>Gerenciamento de projeto.</td>
+</tr>
+<tr>
+<td><strong>Tipo</strong></td>
+<td>Estudantes da FGA da disciplina Tópicos Especiais de Engenharia de Software.</td>
+</tr>
+<tr>
+<td><strong>Responsabilidades</strong></td>
+<td>Gerir o desenvolvimento do produto identificando problemas e apontando caminhos e soluções.</td>
+</tr>
+<tr>
+<td><strong>Critérios de Sucesso</strong></td>
+<td>Manter a equipe focada no projeto, gerência dos riscos associados ao projeto e finalizar o desenvolvimento do projeto.</td>
+</tr>
+<tr>
+<td><strong>Envolvimento</strong></td>
+<td>Alto</td>
 </tr>
 </tbody>
 </table>
 <h3 id="35-perfis-dos-usuarios">3.5 Perfis dos Usuários</h3>
-<p>3.5.1 Dermatologistas</p>
+<h4 id="351-pacientes">3.5.1 Pacientes</h4>
 <table>
 <thead>
 <tr>
@@ -266,31 +321,70 @@
 <tbody>
 <tr>
 <td><strong>Representante</strong></td>
-<td></td>
+<td>Pacientes</td>
 </tr>
 <tr>
 <td><strong>Descrição</strong></td>
-<td></td>
+<td>Pessoa que busca atendimento dermatológico.</td>
 </tr>
 <tr>
 <td><strong>Tipo</strong></td>
-<td></td>
+<td>Usuário que tem interesse em obter melhor atendimento.</td>
 </tr>
 <tr>
 <td><strong>Responsabilidades</strong></td>
-<td></td>
+<td>-</td>
 </tr>
 <tr>
 <td><strong>Critérios de Sucesso</strong></td>
-<td></td>
+<td>Obter um informações precisas e seguras sobre a saúde da sua pele.</td>
 </tr>
 <tr>
 <td><strong>Envolvimento</strong></td>
-<td></td>
+<td>Médio</td>
+</tr>
+</tbody>
+</table>
+<h4 id="351-dermatologistas">3.5.1 Dermatologistas</h4>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Representante</strong></td>
+<td>Dermatologistas</td>
+</tr>
+<tr>
+<td><strong>Descrição</strong></td>
+<td>Formados em Medicina e atuam na área de dermatologia, usuários do software.</td>
+</tr>
+<tr>
+<td><strong>Tipo</strong></td>
+<td>Formados em Medicina</td>
+</tr>
+<tr>
+<td><strong>Responsabilidades</strong></td>
+<td>-</td>
+</tr>
+<tr>
+<td><strong>Critérios de Sucesso</strong></td>
+<td>Obter informações e classificações que possa auxiliá-lo a definir um diagnóstico em relação a saúde da pele dos seus pacientes.</td>
+</tr>
+<tr>
+<td><strong>Envolvimento</strong></td>
+<td>Alto.</td>
 </tr>
 </tbody>
 </table>
 <h3 id="36-alternativas-e-concorrencias">3.6 Alternativas e Concorrências</h3>
+<h4 id="361-dermimd">3.6.1 DermiMD</h4>
+<p><img alt="dermiMD" src="../assets/img/_dermiMD.png" />
+<br>
+<a href="https://github.com/MichaelChoudhury/dermatitisDetector">DermiMD</a> é uma plataforma que tem como objetivo ajudar dermatologistas estagiários a diagnosticar doenças de pele usando um aplicativo da Web.</p>
 <h2 id="4-visao-geral-do-produto"><strong>4. Visão Geral do Produto</strong></h2>
 <h3 id="41-perspectiva-do-produto">4.1 Perspectiva do Produto</h3>
 <h3 id="42-resumo-dos-recursos">4.2 Resumo dos Recursos</h3>
@@ -352,6 +446,12 @@
 <td align="center">0.2</td>
 <td align="center">Adição dos Recursos do Produto e Restrições</td>
 <td align="center">Luiz Gustavo</td>
+</tr>
+<tr>
+<td align="center">10/11/2019</td>
+<td align="center">0.3</td>
+<td align="center">Adição do tópico de Descrição dos Envolvidos e dos Usuários</td>
+<td align="center">Gustavo Nogueira</td>
 </tr>
 </tbody>
 </table></div>
