@@ -37,26 +37,22 @@ O Roadmap do produto representa o planejamento feito para o desenvolvimento a pa
 - Aplicação da camada convolucional
 - US01 - Retirar uma foto com a câmera do celular
 - US03 - Verificar a conformidade da imagem
-- US04 - Retirar novamente uma foto com a câmera do celular
 - US07 - Carregamento enquanto aguarda o processamento da imagem
 - US08 - Verificar mais informações do aplicativo
-- US10 - Acessar documentação do projeto
 - US12 - Acessar Menu de opções
 
 ## Milestone 2: Conclusão do algoritmo de classificação
 
 ### Sprint 2
 
-- Aplicação da camada de Max pooling
-- Aplicação do Flattening
+- Arquitetura da rede neural convoluvional
 - Treinamento e salvamento do classificador
 - Avaliação do modelo
-- Integração do algoritmo no backend
+- US13 - Verificar resultado da avaliação
 
 ## Milestone 3: Release Final
 
 ### Sprint 3
-- Integração do frontend e do backend
 - Deploy do backend
 
 ## Histórico de Revisão
