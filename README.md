@@ -1,5 +1,10 @@
 # Skincare
-App that classifies skin disease
+
+<p align="center">
+  <img width="700" height="250" src="https://github.com/deeplearningunb/Skincare/blob/master/docs/assets/img/skincare-logo.png">
+</p>
+
+App that classifies skin diseases
 
 ## Documentation
 https://deeplearningunb.github.io/Skincare/
