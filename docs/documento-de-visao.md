@@ -28,28 +28,29 @@
 ## **2. Posição**
 
 ### 2.1 Oportunidade de Negócio
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Atualmente o diagnóstico de câncer de pele não é algo simples, uma vez que é necessário biópsia. Procedimento esse que, geralmente, é realizado quando as lesões na pele encontra-se em um estado crítico e o estágio do câncer bem avançado.
 
-
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tendo isso em vista, o Skincare se propõe a dar celeridade ao diagnóstico de câncer de pele por profissionais de saúde através de um aplicativo. A opotunidade de negócio se encontra no fato que o Skincare pode ser utilizado em triagens para detecção de câncer de pele o mais rápido e simples possível. Como por exemplo, da forma que se constata hipertensão arterial com uma coleta de pressão comum.
 
 ### 2.2 Descrição do Problema
 
 | | |
 | :---: | :---: |
-| **O problema de** |  |
-| **Afeta** |  |
-| **Cujo impacto é** |  |
-| **Uma boa solução seria** |  |
+| **O problema de** | diagnóstico de câncer de pele tardio |
+| **Afeta** | a população como um todo, mas principalmente quem tem muita esposição a radiação ultravioleta diariamente|
+| **Cujo impacto é** | Intervenções quando encontra-se em estágio avançado  |
+| **Uma boa solução seria** | Realizar o diagnóstico de manchas na pele por imagem em triagens |
 
 ### 2.3 Descrição de Posição do Produto
 
 | | |
 | :---: | :---: |
-| **Para** |  |
-| **Que** |  |
-| **O PyLearner** |  |
-| **Que** |  |
-| **Diferente de** |  |
-| **Nosso produto** |  |
+| **Para** | Dermatologistas ou Clínicos Gerais |
+| **Que** | Realizam diagnóstico de câncer |
+| **O Skincare** | é um aplicativo|
+| **Que** | diagnostica câncer de pele por imagem  |
+| **Diferente de** | Biópia e exame de sangue |
+| **Nosso produto** | Realiza um diagnóstico instantâneo e não evasivo |
 
 ## **3. Descrição dos Envolvidos e dos Usuários**
 	
