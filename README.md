@@ -51,7 +51,6 @@ O projeto Skincare é liderado por Eugênio Sales
 - [Documentação](https://deeplearningunb.github.io/Skincare/)
 - [Backlog do Produto](https://deeplearningunb.github.io/Skincare/backlog/)
 - [Roadmap do Produto](https://deeplearningunb.github.io/Skincare/roadmap/)
-- [Repositórios de código](https://github.com/skincare-deep-learning)
 
 # Repositórios de Código
 
