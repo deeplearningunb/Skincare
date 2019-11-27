@@ -45,7 +45,7 @@ O Roadmap do produto representa o planejamento feito para o desenvolvimento a pa
 
 ### Sprint 2
 
-- Arquitetura da rede neural convoluvional
+- Arquitetura da rede neural convolucional
 - Treinamento e salvamento do classificador
 - Avaliação do modelo
 - US13 - Verificar resultado da avaliação
@@ -60,4 +60,5 @@ O Roadmap do produto representa o planejamento feito para o desenvolvimento a pa
 |    Data    | Versão |	   Alteração    |      Autor     |
 |:----------:|:------:|:---------------:|:--------------:|
 | 10/11/2019 |  0.1   | Criação do documento |Eugênio Sales |
-| 11/11/2019 |  0.1   | Adição de milestones |Eugênio Sales |
+| 11/11/2019 |  0.2   | Adição de milestones |Eugênio Sales |
+| 22/11/2019 |  0.3   | Atualizaço dos milestones |Eugênio Sales |
