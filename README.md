@@ -40,20 +40,24 @@ O projeto Skincare é liderado por Eugênio Sales
 
 | Membros        | Curso                  | github        | email                  |
 |----------------|------------------------|---------------|------------------------|
-| Eugênio Sales | Engenharia de Software | Eugêniosales | eugenio.sales@outlook.com |
-| Bruno Henrique | Engenharia de Software | Mexazonic    |   |
-| Ernando Braga | Engenharia de Software | | |
-| Gustavo Nogueira | Engenharia de Software | | |
-| Luís Gustavo | Engenharia de Software | | |
+| Eugênio Sales | Engenharia de Software | [Eugeniosales](https://github.com/Eugeniosales) | eugenio.sales@outlook.com |
+| Bruno Henrique | Engenharia de Software | [Mexazonic](https://github.com/Mexazonic) | |
+| Ernando Braga | Engenharia de Software | [ZarathosDeath](https://github.com/ZarathosDeath) | |
+| Gustavo Nogueira | Engenharia de Software | [Gustavo-nogueira](https://github.com/Gustavo-Nogueira) | |
+| Luís Gustavo | Engenharia de Software | [lgpinheiro94](https://github.com/lgpinheiro94) | |
 
 # Planejamento
-
-## Conteúdo e Artefatos
 
 - [Documentação](https://deeplearningunb.github.io/Skincare/)
 - [Backlog do Produto](https://deeplearningunb.github.io/Skincare/backlog/)
 - [Roadmap do Produto](https://deeplearningunb.github.io/Skincare/roadmap/)
 - [Repositórios de código](https://github.com/skincare-deep-learning)
+
+# Repositórios de Código
+
+- [Rede neural convolucional](https://github.com/skincare-deep-learning/Skincare-cnn)
+- [Skincare Backend](https://github.com/skincare-deep-learning/Skincare-backend)
+- [Skincare Frontend](https://github.com/skincare-deep-learning/Skincare-frontend)
 
 ### Membros/Stakeholders
 
