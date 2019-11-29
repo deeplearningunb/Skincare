@@ -41,7 +41,7 @@ O projeto Skincare é liderado por Eugênio Sales
 | Membros        | Curso                  | github        | email                  |
 |----------------|------------------------|---------------|------------------------|
 | Eugênio Sales | Engenharia de Software | [Eugeniosales](https://github.com/Eugeniosales) | eugenio.sales@outlook.com |
-| Bruno Henrique | Engenharia de Software | [Mexazonic](https://github.com/Mexazonic) | |
+| Bruno Henrique | Engenharia de Software | [Mexazonic](https://github.com/Mexazonic) |brunnohenriq697@gmail.com |
 | Ernando Braga | Engenharia de Software | [ZarathosDeath](https://github.com/ZarathosDeath) | |
 | Gustavo Nogueira | Engenharia de Software | [Gustavo-nogueira](https://github.com/Gustavo-Nogueira) | |
 | Luís Gustavo | Engenharia de Software | [lgpinheiro94](https://github.com/lgpinheiro94) | |
