@@ -8,8 +8,11 @@ nav:
   - Planejamento:
     - Backlog do Produto: 'backlog.md'
     - Documento de Visão: 'documento-de-visao.md'
-    - Protótipo de Baixa Fidelidade: 'prototipo_baixa_fidelidade.md'
     - Roadmap: 'roadmap.md'
+    - Documento de Arquiterura: 'documento-arquitetura.md'
+  - Prototipagem:
+    - Protótipo de Baixa Fidelidade: 'prototipo_baixa_fidelidade.md'
+
   
 
 theme:
