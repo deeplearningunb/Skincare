@@ -5,11 +5,11 @@ site_description: Skincare documentation site, built with Mkdocs
 
 nav:
   - Home: 'index.md'
-  - Documentação:
+  - Planejamento:
     - Backlog do Produto: 'backlog.md'
     - Documento de Visão: 'documento-de-visao.md'
     - Protótipo de Baixa Fidelidade: 'prototipo_baixa_fidelidade.md'
-  - Roadmap: 'roadmap.md'
+    - Roadmap: 'roadmap.md'
   
 
 theme:
