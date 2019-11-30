@@ -27,10 +27,9 @@ Tendo em vista essa contextualização, o objetivo do Skincare é ajudar os part
 
 ## Quem será Beneficiado com essa solução?
 
-Dermatologistas ou Clínicos Gerais que	realizam diagnóstico de câncer de pele instantâneo e não evasivo por imagem diferente de Biópia e exame de sangue.
+Dermatologistas ou Clínicos Gerais que	realizam diagnóstico de câncer de pele instantâneo e não invasivo por imagem diferente de Biópia e exame de sangue.
 
-## Documento de Visão
-[Documento de Visão](https://deeplearningunb.github.io/Skincare/documento-de-visao/)
+## [Documentação do Projeto](https://deeplearningunb.github.io/Skincare/)
 
 
 # EQUIPE
