@@ -129,15 +129,20 @@
 <br>
 [DermiMD](https://github.com/MichaelChoudhury/dermatitisDetector) é uma plataforma que tem como objetivo ajudar dermatologistas estagiários a diagnosticar doenças de pele usando um aplicativo da Web.
 
-## **4. Visão Geral do Produto**
-
+## **4. Visão Geral do Produto**  
 ### 4.1 Perspectiva do Produto
+O intuito do Skincare é ajudar a área de dermatologia com pré-exames não invasivos e rápidos, apenas usando um smartphone com câmera para tirar foto da pele usando o aplicativo Skincare 
 
 ### 4.2 Resumo dos Recursos
 | **Benefício para o Cliente** | **Recursos de suporte** |
 |:---:|:---:|
-|  |  |
-|  |  |
+| O aplicativo é de fácil entendimento e aprendizagem | O próprio aplicativo possui uma seção para servir de base de conhecimento para o usuário |
+| O pré-exame é feito de forma rápida e intuitiva, necessitando apenas uma conexão com internet | Assim que o usuário tirar a foto de sua pele e confirmar o envio, a API do Skincare já retorna o resultado para o usuário |
+| O usuário tem acesso a um pré-exame que distingue vários tipos de doenças | Apesar de não substituir diagnóstico médico, já possui função de informar o usuário |
+| Otimizar o tempo gasto dos profissionais de dermatologia e da saúde | Gerar uma maior amplitude do entendimento tanto para o profissional quanto para o paciente |
+
+### 4.3 Custo e Precificação
+O aplicativo Skincare é de uso gratuito, necessitando apenas um smartphone com câmera e acesso a internet para que possa ser utilizado.
 
 ## 5. <a name="5">Recursos do Produto</a>
 O sistema oferece as seguintes funcionalidades aos usuários: 
