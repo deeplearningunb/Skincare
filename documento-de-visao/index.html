@@ -50,7 +50,7 @@
                                 <a href="..">Home</a>
                             </li>
                             <li class="dropdown active">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Documentação <b class="caret"></b></a>
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Planejamento <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
 <li >
@@ -62,12 +62,22 @@
 </li>
                                     
 <li >
-    <a href="../prototipo_baixa_fidelidade/">Protótipo de Baixa Fidelidade</a>
+    <a href="../roadmap/">Roadmap</a>
+</li>
+                                    
+<li >
+    <a href="../documento-arquitetura/">Documento de Arquiterura</a>
 </li>
                                 </ul>
                             </li>
-                            <li >
-                                <a href="../roadmap/">Roadmap</a>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Prototipagem <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../prototipo_baixa_fidelidade/">Protótipo de Baixa Fidelidade</a>
+</li>
+                                </ul>
                             </li>
                         </ul>
 
@@ -83,7 +93,7 @@
                                 </a>
                             </li>
                             <li >
-                                <a rel="prev" href="../prototipo_baixa_fidelidade/">
+                                <a rel="prev" href="../roadmap/">
                                     Next <i class="fa fa-arrow-right"></i>
                                 </a>
                             </li>
@@ -131,6 +141,8 @@
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Este documento visa detalhar os processos de desenvolvimento, planejamento e a construção do Skincare, a gestão em um todo. Assim como sua visão de negócio, as partes a que se destina o uso do software, contendo as limitações, funcionalidades, interfaces e requisitos.</p>
 <h2 id="2-posicao"><strong>2. Posição</strong></h2>
 <h3 id="21-oportunidade-de-negocio">2.1 Oportunidade de Negócio</h3>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Atualmente o diagnóstico de câncer de pele não é algo simples, uma vez que é necessário biópsia. Procedimento esse que, geralmente, é realizado quando as lesões na pele encontra-se em um estado crítico e o estágio do câncer bem avançado.</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tendo isso em vista, o Skincare se propõe a dar celeridade ao diagnóstico de câncer de pele por profissionais de saúde através de um aplicativo. A opotunidade de negócio se encontra no fato que o Skincare pode ser utilizado em triagens para detecção de câncer de pele o mais rápido e simples possível. Como por exemplo, da forma que se constata hipertensão arterial com uma coleta de pressão comum.</p>
 <h3 id="22-descricao-do-problema">2.2 Descrição do Problema</h3>
 <table>
 <thead>
@@ -142,19 +154,19 @@
 <tbody>
 <tr>
 <td align="center"><strong>O problema de</strong></td>
-<td align="center"></td>
+<td align="center">diagnóstico de câncer de pele tardio</td>
 </tr>
 <tr>
 <td align="center"><strong>Afeta</strong></td>
-<td align="center"></td>
+<td align="center">a população como um todo, mas principalmente quem tem muita esposição a radiação ultravioleta diariamente</td>
 </tr>
 <tr>
 <td align="center"><strong>Cujo impacto é</strong></td>
-<td align="center"></td>
+<td align="center">Intervenções quando encontra-se em estágio avançado</td>
 </tr>
 <tr>
 <td align="center"><strong>Uma boa solução seria</strong></td>
-<td align="center"></td>
+<td align="center">Realizar o diagnóstico de manchas na pele por imagem em triagens</td>
 </tr>
 </tbody>
 </table>
@@ -169,27 +181,27 @@
 <tbody>
 <tr>
 <td align="center"><strong>Para</strong></td>
-<td align="center"></td>
+<td align="center">Dermatologistas ou Clínicos Gerais</td>
 </tr>
 <tr>
 <td align="center"><strong>Que</strong></td>
-<td align="center"></td>
+<td align="center">Realizam diagnóstico de câncer</td>
 </tr>
 <tr>
-<td align="center"><strong>O PyLearner</strong></td>
-<td align="center"></td>
+<td align="center"><strong>O Skincare</strong></td>
+<td align="center">é um aplicativo</td>
 </tr>
 <tr>
 <td align="center"><strong>Que</strong></td>
-<td align="center"></td>
+<td align="center">diagnostica câncer de pele por imagem</td>
 </tr>
 <tr>
 <td align="center"><strong>Diferente de</strong></td>
-<td align="center"></td>
+<td align="center">Biópia e exame de sangue</td>
 </tr>
 <tr>
 <td align="center"><strong>Nosso produto</strong></td>
-<td align="center"></td>
+<td align="center">Realiza um diagnóstico instantâneo e não evasivo</td>
 </tr>
 </tbody>
 </table>
@@ -387,6 +399,7 @@
 <a href="https://github.com/MichaelChoudhury/dermatitisDetector">DermiMD</a> é uma plataforma que tem como objetivo ajudar dermatologistas estagiários a diagnosticar doenças de pele usando um aplicativo da Web.</p>
 <h2 id="4-visao-geral-do-produto"><strong>4. Visão Geral do Produto</strong></h2>
 <h3 id="41-perspectiva-do-produto">4.1 Perspectiva do Produto</h3>
+<p>O intuito do Skincare é ajudar a área de dermatologia com pré-exames não invasivos e rápidos, apenas usando um smartphone com câmera para tirar foto da pele usando o aplicativo Skincare </p>
 <h3 id="42-resumo-dos-recursos">4.2 Resumo dos Recursos</h3>
 <table>
 <thead>
@@ -397,15 +410,25 @@
 </thead>
 <tbody>
 <tr>
-<td align="center"></td>
-<td align="center"></td>
+<td align="center">O aplicativo é de fácil entendimento e aprendizagem</td>
+<td align="center">O próprio aplicativo possui uma seção para servir de base de conhecimento para o usuário</td>
 </tr>
 <tr>
-<td align="center"></td>
-<td align="center"></td>
+<td align="center">O pré-exame é feito de forma rápida e intuitiva, necessitando apenas uma conexão com internet</td>
+<td align="center">Assim que o usuário tirar a foto de sua pele e confirmar o envio, a API do Skincare já retorna o resultado para o usuário</td>
+</tr>
+<tr>
+<td align="center">O usuário tem acesso a um pré-exame que distingue vários tipos de doenças</td>
+<td align="center">Apesar de não substituir diagnóstico médico, já possui função de informar o usuário</td>
+</tr>
+<tr>
+<td align="center">Otimizar o tempo gasto dos profissionais de dermatologia e da saúde</td>
+<td align="center">Gerar uma maior amplitude do entendimento tanto para o profissional quanto para o paciente</td>
 </tr>
 </tbody>
 </table>
+<h3 id="43-custo-e-precificacao">4.3 Custo e Precificação</h3>
+<p>O aplicativo Skincare é de uso gratuito, necessitando apenas um smartphone com câmera e acesso a internet para que possa ser utilizado.</p>
 <h2 id="5-recursos-do-produto">5. <a name="5">Recursos do Produto</a></h2>
 <p>O sistema oferece as seguintes funcionalidades aos usuários: 
 * O sistema possibilita a distinção de diferentes tipos de doença de pele, apontando para a mais provável, apesar de não substituir um diagnostico médico, oferece ao usuário um noção prévia da doença que está sendo observada. 
